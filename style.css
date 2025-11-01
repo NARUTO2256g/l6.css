@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+.static{
+    position: static;
+    background-color: aquamarine;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.sticky{
+    position: sticky;
+    background-color: cadetblue;
+    border: 2px solid lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    top: 0;
+}
+.relative {
+    position: relative;
+    background-color: rgb(110, 171, 173);
+    border: 2px solid rgb(144, 51, 167);
+    padding: 10px;
+    margin: 10px;
+    top: 0;
+}
+.absolute {
+    position: absolute;
+    background-color: rgba(5, 104, 26);
+    border: 2px solid lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    top: 0;
+    
+}
+.fixed {
+    position: fixed;
+    background-color: cadetblue;
+    border: 2px solid lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    top: 0;
+    right: 0;
+}
