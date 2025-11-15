@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Positioning in CSS</title>
+    <style>
+        .box {
+            width: 250px;
+            height: 60px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #8989;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .static {
+            background: #d3ffd3;
+            position: static;
+        }
+
+        .relative {
+            background: #e3ffe3;
+            position: relative;
+            left: 30px;
+            top: 10px;
+        }
+
+        .absolute {
+            background: #fff7e3;
+            position: absolute;
+            left: 100px;
+            top: 150px;
+            z-index: 1;
+        }
+
+        .header {
+            font-size: 2em;
+            font-weight: bold;
+            padding: 5px;
+            margin-bottom: 40px;
+            border: 2px solid #dd77cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Positioning in CSS</div>
+    <div class="box static">Div with static position</div>
+    <div class="box relative">Div with relative position</div>
+    <div class="box absolute">Div with absolute position</div>
+</body>
+
+</html>
